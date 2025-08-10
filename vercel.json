@@ -1,8 +1,8 @@
 {
-  "buildCommand": "npm ci && npm run build",
+  "buildCommand": "npm install && npm run build",
   "outputDirectory": "build",
   "framework": "create-react-app",
-  "installCommand": "npm ci",
+  "installCommand": "npm install",
   "env": {
     "GENERATE_SOURCEMAP": "false",
     "SKIP_PREFLIGHT_CHECK": "true"
