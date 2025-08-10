@@ -10,6 +10,7 @@
     "TSC_COMPILE_ON_ERROR": "true",
     "FAST_REFRESH": "false",
     "DISABLE_NEW_JSX_TRANSFORM": "true",
+    "REACT_APP_WEBPACK_DISABLE_OPTIMIZATION": "true",
     "NODE_OPTIONS": "--max_old_space_size=4096"
   }
 }
