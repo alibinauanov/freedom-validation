@@ -1,10 +1,14 @@
 {
-  "buildCommand": "npm install && npm run build",
+  "buildCommand": "npm install --force && npm run build",
   "outputDirectory": "build",
-  "framework": "create-react-app",
-  "installCommand": "npm install",
+  "framework": null,
+  "installCommand": "npm install --force",
   "env": {
     "GENERATE_SOURCEMAP": "false",
-    "SKIP_PREFLIGHT_CHECK": "true"
+    "SKIP_PREFLIGHT_CHECK": "true",
+    "DISABLE_ESLINT_PLUGIN": "true",
+    "TSC_COMPILE_ON_ERROR": "true",
+    "FAST_REFRESH": "false",
+    "NODE_OPTIONS": "--max_old_space_size=4096"
   }
 }

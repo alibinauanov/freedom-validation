@@ -36,7 +36,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postinstall": "npm ls schema-utils || npm install schema-utils@2.7.1 --no-save"
   },
   "eslintConfig": {
     "extends": [
